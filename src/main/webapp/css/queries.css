@@ -1,0 +1,1292 @@
+/* Big tablet to 1280px (widths smaller taht the 1200px row) */
+@media only screen and (max-width: 1370px) {
+    h2 {
+    font-size: 30px;
+    margin-top: 40px;
+    }
+    
+    h4 {
+        margin-top: 20px;
+    }
+    
+    h1 {
+        margin-top: 25px;
+    }
+    /* ----------------------------------------------- */
+    /* Cabeçalho */
+    /* ----------------------------------------------- */
+   header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    background: url(img/fundo-branco.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    bottom: 0;
+    padding: 2.5em;
+    width: 100%;
+    height: 25px;
+    }
+
+    #menuzao{
+        margin-top: -20px;
+        position: fixed;
+    }
+
+    #logo {
+        float: left;
+        margin-left: 50px;
+        width: 180px;
+    }
+
+    #menu {
+        float: right;
+    }
+
+    #menu ul {
+        list-style: none;
+    }
+
+    #menu ul li {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 1em;
+        margin-top: 5px;
+    }
+
+    #menu ul li a:link,
+    #menu ul li a:visited {
+        padding: 8px 8px;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 60%;
+        border: none;
+        border-radius: 10px;
+        -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+        transition: background-color 0.2s, border 0.2s, color 0.2s;
+    }
+
+    #linha-header {
+        position: fixed; 
+        z-index: 2; 
+        margin-top: 58px;
+    }
+
+    /* ----------------------------------------------- */
+    /* Section ComeceJa */
+    /* ----------------------------------------------- */
+
+    #ComeceJa {
+        height: 481px;
+        margin: 0 0;
+        background: url(img/comeceja.png) no-repeat center center absolute; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        bottom: 0;
+        left: 0;
+        overflow: auto;
+        padding: 3em;
+        right: 0;
+        top: 0;
+    }
+
+    #ComeceJa img{
+        width: 100%;
+    }
+    /* ----------------------------------------------- */
+    /* Section QuemSomos */
+    /* ----------------------------------------------- */
+
+    /*#QuemSomos {
+        height: 400px;
+        margin: 0 0;
+        background: url(img/mesa.png) no-repeat center center absolute; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        bottom: 0;
+        left: 0;
+        padding: 3em;
+        right: 0;
+        top: 0;
+    }*/
+
+    #txtQuemSomos {
+        width: 700px;
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+        margin: 0px 270px 0 220px;
+    }
+
+    #filha {
+        width: 100%;
+        height: 10px;
+        background-image: url(img/madeira.png);
+        margin: 0 0;
+    }
+
+    #fichas-quemsomos {
+        margin: -25px 0 -25px 100px;
+        
+    }
+
+    /* ----------------------------------------------- */
+    /* Section ComoFunciona */
+    /* ----------------------------------------------- */
+
+    #principal2{
+        margin: 0 210px;
+    }
+
+    #conteudo-1 {
+        float:left;
+        width:250px;
+        padding: 15px;
+    }
+
+    #conteudo-2 {
+        width: 760px;    
+    }
+
+    #conteudo-2-1 {
+        float:left;
+        width:250px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 15px;
+    }
+    
+    #conteudo-2-2 {
+        float:right;
+        width:250px;
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    /*#ComoFunciona p {
+        text-align: center;
+        color: #fff;
+    }*/
+
+    #k {
+        margin-bottom: 25px;
+        width: 150px;
+        height: 150px;
+    }
+
+    #r {
+        margin-bottom: 25px;
+        width: 150px;
+        height: 150px;
+    }
+
+    #p {
+        margin-bottom: 25px;
+        width: 150px;
+        height: 150px;
+    }
+
+    #aa {
+        width: 200px;
+        height: 150px;
+        float: left;
+        margin-top: -150px;
+        margin-right: 250px;
+    }
+    /* ----------------------------------------------- */
+    /* Section Promoções */
+    /* ----------------------------------------------- */
+
+    /*#promocoes {
+        height: 400px;
+        margin: 0 0;
+        background: url(img/fundo-verde.png) no-repeat center center absolute; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        bottom: 0;
+        left: 0;
+        padding: 3em;
+        right: 0;
+        top: 0;
+    }*/
+
+    #linha-promocoes {
+        margin-top: -10px;
+        margin-bottom: 40px; 
+    }
+
+    #txtpromocoes {
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    /* ----------------------------------------------- */
+    /* Section Rapido, Facil e Seguro */
+    /* ----------------------------------------------- */
+
+    #RFS {
+        height: 480px;
+        margin: 0 0;
+        background: url(img/fundo-verdetextura.png) no-repeat center center absolute; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        bottom: 0;
+        left: 0;
+        padding: 3em;
+        right: 0;
+        top: 0;
+    }
+
+    #linha-rfs {
+        margin-top: -10px;
+        margin-bottom: 40px; 
+    }
+
+    #conteudo-1-rfs {
+        float:left;
+        width:450px;
+        height: 300px;
+        margin-left: 210px;
+        margin-top: 25px;
+        padding: 15px;
+    }
+
+    #conteudo-2-rfs {
+        float:left;
+        width:250px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 15px;
+    }
+
+    #RFS p {
+        width: 500px;
+        height: auto;
+        text-align: center;
+        color: #fff;
+        float: left;
+        margin-left: -35px;
+    }
+
+    #filha2 {
+        width: 100%;
+        height: 10px;
+        background-image: url(img/madeira.png);
+        margin: 0 0;
+    }
+
+    #fichas-rfs {
+        float: right;
+        margin-top: -90px;
+        margin-right: 150px;
+    }
+
+
+    /* ----------------------------------------------- */
+    /* Section BancosParceiros */
+    /* ----------------------------------------------- */
+
+    #BancosParceiros {
+        height: 350px;
+        margin: 0 0;
+        background: url(img/fundo-verde.png) no-repeat center center absolute; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        bottom: 0;
+        left: 0;
+        padding: 3em;
+        right: 0;
+        top: 0;
+    }
+
+    #linha-bancosparceiros {
+        margin-top: -10px;
+        margin-bottom: 40px; 
+    }
+
+    #tableBancos {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    #tdBancos img {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #filha3 {
+        width: 100%;
+        height: 10px;
+        background-image: url(img/madeira.png);
+        margin: 0 0;
+    }
+
+    /* ----------------------------------------------- */
+    /* Section Contato */
+    /* ----------------------------------------------- */
+
+    /*#Contato {
+        height: 500px;
+        margin: 0 0;
+        background: url(img/fundo-contato.png) no-repeat center center absolute; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        bottom: 0;
+        left: 0;
+        padding: 3em;
+        right: 0;
+        top: 0;
+    }*/
+
+    /* Formulário */
+
+    #linha-contato{
+        margin-top: 10px;
+    }
+
+    form {
+        float: left;
+        margin-left: 275px;
+        margin-top: 20px;
+    }
+
+    #name {
+        width: 370px;
+        border: 1px;
+        border-radius: 5px;
+    }
+
+    #email {
+        width: 370px;
+        border: 1px;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    
+    /* ----------------------------------------------- */
+
+    #linone {
+        list-style: none;
+        float: left;
+        word-spacing: 10px;
+    }
+
+    #social-links {
+        margin-top: 10px;
+        margin-right: 0;
+        float: right;
+        font-size: 10px;
+    }
+
+    #social-links li {
+        display: inline-block;
+        margin-right: 170px;
+        float: left;
+    }
+
+    #txtsolicite {
+        font-size: 15px;
+        color: #000;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #titulo-solicite {
+        color: #000;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #titulo-solicite1 {
+        color: #000;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #num{
+        color: #000; 
+        font-weight: bold;
+        margin-top: -5px;
+    }
+
+    #face {
+        margin-top: -50px;
+        float: right;
+        margin-right: 200px
+    }
+
+    /* ----------------------------------------------- */
+    /* Section Roleta */
+    /* ----------------------------------------------- */
+
+    #roleta {
+        height: 241px;
+        margin: 0 0;
+        background: url(img/fundo-verdetextura.png) no-repeat center center absolute; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        bottom: 0;
+        left: 0;
+        padding: 3em;
+        right: 0;
+        top: 0;
+    }
+
+    /* ----------------------------------------------- */
+    /* Footer */
+    /* ----------------------------------------------- */
+
+    footer{
+        height: 50px;
+        margin: 0 0;
+        background: url(img/fundo-verdeclaro.png) no-repeat center center absolute; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        bottom: 0;
+        left: 0;
+        padding-top: 18px;
+        right: 0;
+        top: 0;
+    }
+
+}
+
+/* Small tablet to big tablet: from 900px to 1023px */
+@media only screen and (max-width: 1023px) {
+    /* ----------------------------------------------- */
+    /* cabeçalho */
+    /* ----------------------------------------------- */
+    header .control-nav {
+        float: right;
+        margin-left: 630px;
+        position: absolute;
+        top: 10px;
+        display: inline-block;
+        width: 30px;
+        padding: 5px 0;
+        border: solid #000;
+        border-width: 3px 0;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    header .control-nav:before {
+        content: "";
+        display: block;
+        height: 3px;
+        background: #000;
+    }
+
+    header .control-nav-close {
+        position: fixed;
+        float: right;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: inline-block;
+        z-index: 1;
+        background: rgba(0,0,0,0.4);
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+
+    header nav {
+        position: fixed;
+        top: 50px;
+        right: -50px;
+        bottom: 0;
+        width: 300px;
+        overflow-x: auto;
+        z-index: 2;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+
+    #control-nav:checked ~ .control-nav-close {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+
+    #control-nav:checked ~ nav {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+    
+    header ul {
+        margin-top: 35px;
+        margin-right: 50px;
+    }
+    
+    #Login {
+        margin-left: 30px;
+    }
+    
+    #menu {
+        z-index: 1;
+        width: 700px;
+    }
+    
+    .btn-full1:link,
+    .btn-full1:visited,
+    input[type=submit] {
+        margin-left: 250px;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Quem Somos */
+    /* ----------------------------------------------- */    
+     h2{
+        margin-left: 0;    
+    }
+    
+    /*#linha-quemsomos {
+        width: 300px;
+        margin-left: 0;
+    }*/
+    
+    /* ----------------------------------------------- */
+    /* Como Funciona */
+    /* ----------------------------------------------- */
+    #principal2 {
+        margin-left: 50px;
+    }
+     
+    /* ----------------------------------------------- */
+    /* Contato */
+    /* ----------------------------------------------- */
+    #Contato {
+        width: 900px;
+        height: 350px;
+    }
+    
+    h4 {
+        font-size: 25px;
+    }
+    
+    #name {
+        margin-top: 0px;
+        width: 250px;
+    }
+    
+    #email {
+        margin-top: 0px;
+        width: 250px;
+    }
+    
+    #social-links {
+        margin-top: 0;
+        width: 340px; 
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    
+    #txtsolicite {
+        margin-bottom: 0;
+    }
+    
+    #titulo-solicite1 {
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    
+    #face {
+        margin-right: 150px;
+    }
+    
+    /* ----------------------------------------------- */
+    /* roleta */
+    /* ----------------------------------------------- */
+    #roleta {
+        height: 185px;
+    }
+    
+}
+
+/* Small tablet to big tablet: from 767px to 900px */
+@media only screen and (max-width: 900px) {
+    /* ----------------------------------------------- */
+    /* header */
+    /* ----------------------------------------------- */
+    header .control-nav {
+        margin-left: 490px;
+    }
+    
+    #menu {
+        margin-top: -20px;
+        display: block;
+        z-index: 1;
+        width: 200px;
+    }
+    
+    .btn:link,
+    .btn:visited,
+    input[type=submit] {
+        margin-right: 20px;
+    }
+    
+    .btn-full1:link,
+    .btn-full1:visited,
+    input[type=submit] {
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    
+    .btn-full2:link,
+    .btn-full2:visited,
+    input[type=submit] {
+        margin-left: -10px;
+    }
+
+    /* ----------------------------------------------- */
+    /* Quem Somos */
+    /* ----------------------------------------------- */
+    /*#QuemSomos {
+        width: 100%;
+        height: 330px;
+    }*/
+    
+    h2 {
+        margin-top: 20px;
+        font-size: 27px;    
+    }
+    
+    #linha-quemsomos {
+        margin-top: -5px;
+        width: 250px;
+    }
+    
+    #txtQuemSomos {
+        margin-top: -13px;
+        width: 570px;
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Como Funciona */
+    /* ----------------------------------------------- */
+    #ComoFunciona {
+        height: 480px;
+    }
+    
+    h1{
+        font-size: 27px;
+    }
+    
+    #linha-comofunciona {
+        width: 300px;
+    }
+    
+    #k {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #r {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #p {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #conteudo-1 p {
+        margin-right: 0;
+        width: 240px;
+        font-size: 15px;
+    }
+    
+     #conteudo-2-1 p {
+        margin-right: 0;
+        font-size: 15px;
+         width: 240px;
+    }
+    
+     #conteudo-2-2 p {
+        margin-right: 0;
+        font-size: 15px;
+         width: 220px;
+    }
+     
+    #conteudo-1 {
+        width: 230px;
+        padding: 0;
+        margin-left: -50px;
+    }
+    
+     #conteudo-2-1 {
+         margin-left: -15px;
+        width: 230px;
+        padding: 0;
+    }
+    
+     #conteudo-2-2 {
+        width: 220px;
+        margin-right: 140px;
+        padding: 0;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    #aa {
+        margin-top: -120px;
+        width: 150px;
+        height: auto;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Bancos e Parceiros */
+    /* ----------------------------------------------- */
+    #BancosParceiros {
+        height: 230px;
+    }
+    
+    #h-bancos {
+        margin-top: -65px;
+    }
+    
+    #itau {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #bancobrasil {
+        width: 100px;
+        height: 50px;
+    }
+    
+    #bradesco {
+        height: 50px;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Contato */
+    /* ----------------------------------------------- */
+    #Contato {
+        width: 768px;
+        height: 300px;
+    }
+    
+    h4{
+        font-size: 20px;
+    }
+    
+    #linha-contato {
+        width: 180px;
+        margin-top: -5px;
+    }
+     
+    form {
+        margin-left: 145px;    
+    }
+    
+    
+    #name {
+        margin-top: 0px;
+        width: 250px;
+    }
+    
+    #email {
+        margin-top: -10px;
+        width: 250px;
+    }
+    
+    #social-links p {
+        font-size: 15px;
+    }
+    
+    #social-links {
+        margin-left: 0px;
+        width: 250px;
+        margin-top: 5px;
+    }
+    
+    #txtsolicite {
+        margin-bottom: 0;
+        width: 250px;
+    }
+    
+    #titulo-solicite {
+        margin-bottom: 0;    
+    }
+    
+    #titulo-solicite1 {
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    
+    #face {
+        margin-right: 90px;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Roleta */
+    /* ----------------------------------------------- */
+    #roleta {
+        height: 130px;
+    }
+    
+    
+    /* ----------------------------------------------- */
+    /* footer */
+    /* ----------------------------------------------- */
+    footer {
+        padding-top: 10px;
+        padding-bottom: 0;
+        height: 30px;
+    }
+    
+    #copy {
+        font-size: 7px;
+    }
+    
+    p#copy {
+        margin-bottom: 0px;
+    }
+    
+    #copy a {
+        font-size: 7px;
+    }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    /* ----------------------------------------------- */
+    /* header */
+    /* ----------------------------------------------- */
+    header {
+        padding-top: 20px;
+        padding-bottom: 0px;
+        height: 40px;
+    }
+    
+    header .control-nav {
+        margin-left: 300px;
+    }
+    
+    #menu {
+        margin-top: -45px;    
+    }
+    
+    #logo{
+        width: 120px;
+        height: 30px;
+    }
+    
+    #linha-header {
+        margin-top: 50px;
+    }
+    /* ----------------------------------------------- */
+    /* Comece Ja */
+    /* ----------------------------------------------- */
+    #ComeceJa {
+        height: 300px;
+    }
+    
+    #botao {
+        font-size: 15px;
+        margin-top: 160px;
+        margin-left: 50px;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Quem Somos */
+    /* ----------------------------------------------- */
+    /*#QuemSomos {
+        height: 200px;
+        background-image: url(img/fundo-verdeclaro.png);
+    }*/
+    
+    h2 {
+        margin-top: 0;
+        font-size: 15px;
+    }
+    
+    #linha-quemsomos {
+        margin-top: 0px;
+        width: 150px;    
+    }
+    
+    #txtQuemSomos {
+        margin-left: 0;
+        font-size: 10px;
+        width: 400px;
+    }
+    
+    #fichas-quemsomos {
+        width: 150px;
+        height: 30px;
+        margin-top: -18px;
+        margin-left: 0;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Como Funciona */
+    /* ----------------------------------------------- */
+    #ComoFunciona {
+        height: 310px;
+    }
+    
+    h1 {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    
+    #linha-comofunciona {
+        width: 180px;
+        margin-top: -5px;
+        margin-bottom: 15px;
+    }
+    
+    #k {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #r {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #p {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #conteudo-1 p {
+        margin-right: 0;
+        width: 125px;
+        font-size: 10px;
+    }
+    
+    #conteudo-2-1 p {
+        margin-right: 0;
+        font-size: 10px;
+        width: 125px;
+    }
+    
+    #conteudo-2-2 p {
+        margin-right: 0;
+        font-size: 10px;
+        width: 140px;
+    }
+     
+    #conteudo-1 {
+        width: 115px;
+        padding: 0;
+        margin-left: -70px;
+    }
+    
+    #conteudo-2-1 {
+        margin-left: 30px;
+        width: 115px;
+        padding: 0;
+    }
+    
+    #conteudo-2-2 {
+        width: 140px;
+        margin-right: 410px;
+        padding: 0;
+    }
+    
+    h3 {
+        font-size: 13px;
+    }
+    
+    #aa {
+        margin-top: -80px;
+        width: 100px;
+        height: auto;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Promoções */
+    /* ----------------------------------------------- */
+    #promocoes {
+        background-image: url(img/fundo-verde.png);
+    }
+    
+    /* ----------------------------------------------- */
+    /* RFS */
+    /* ----------------------------------------------- */
+    #RFS {
+        background-image: url(img/fundo-verdetextura.png);
+    }
+    
+    /* ----------------------------------------------- */
+    /* Bancos e Parceiros */
+    /* ----------------------------------------------- */
+    #BancosParceiros {
+        height: 200px;
+        background-image: url(img/fundo-verde.png);
+    }
+    
+    #h-bancos {
+        margin-top: -45px;    
+    }
+    
+    #linha-bancosparceiros {
+        margin-top: 0;
+        width: 200px;
+    }
+    
+    #tableBancos {
+        margin-left: -40px;    
+    }
+    
+    img#bancobrasil {
+        margin-left: 80px;
+        margin-right: 0;
+        height: 35px;
+    }
+    
+    #itau {
+        width: 35px;
+        height: 35px;
+    }
+    
+    img#bradesco {
+        margin-left: 0px;
+        margin-right: 0;
+        height: 35px;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Contato */
+    /* ----------------------------------------------- */
+    #Contato {
+        background-image: url(img/fundo-branco.png);
+        width: 100%;
+        height: 250px;
+    }
+    
+    h4 {
+        margin-top: 20px;    
+    }
+    
+    #name {
+        font-size: 11px;
+    }
+    
+    #email {
+        font-size: 11px;
+    }
+    
+    #social-links {
+        width: 125px;
+    }
+    
+    p#titulo-solicite {
+        width: 160px;
+        font-size: 11px;
+    }
+    
+    p#txtsolicite {
+        font-size: 9px;
+        width: 160px;
+    }
+    
+    p#titulo-solicite1 {
+        width: 160px;
+        font-size: 11px;
+    }
+    
+    p#num {
+        margin-top: -10px;
+        font-size: 11px;    
+    }
+    
+    #linone {
+        margin-top: -15px;
+    }
+    
+    #face {
+        margin-top: -38px;
+        margin-right: 0px;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Roleta */
+    /* ----------------------------------------------- */
+    #roleta {
+        height: 0px;
+    }
+    
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    /* ----------------------------------------------- */
+    /* Header */
+    /* ----------------------------------------------- */
+     header .control-nav {
+        margin-left: 210px;
+    }
+    
+    nav#menu {
+        margin-top: -35px;
+        height: 350px;
+    }
+
+    /* ----------------------------------------------- */
+    /* Quem Somos */
+    /* ----------------------------------------------- */
+    p#txtQuemSomos {
+        width: 350px;
+        margin-left: -30px;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Como Funciona */
+    /* ----------------------------------------------- */
+    #ComoFunciona {
+        height: 265px;
+    }
+    
+    #k {
+        width: 35px;
+        height: 35px;
+    }
+    
+    #r {
+        width: 35px;
+        height: 35px;
+    }
+    
+    #p {
+        width: 35px;
+        height: 35px;
+    }
+    
+    h3 {
+        font-size: 11px;
+    }
+    
+    #conteudo-1 p {
+        font-size: 8px;
+    }
+    
+    #conteudo-2-1 p {
+        font-size: 8px;
+    }
+    
+    #conteudo-2-2 p {
+        font-size: 8px;
+    }
+    
+    #conteudo-1 {
+        margin-left: -90px;    
+    }
+    
+    #conteudo-2-1 {
+        margin-left: 0px;
+    }
+    
+    #conteudo-2-2 {
+        margin-right: 480px;
+    }
+    
+    #aa {
+        margin-top: -63px;
+        width: 80px;
+    }
+
+    /* ----------------------------------------------- */
+    /* Bancos e Parceiros */
+    /* ----------------------------------------------- */
+    #BancosParceiros {
+        height: 160px;
+    }
+    
+    #tableBancos {
+        margin-top: -20px;
+    }
+    
+    #bancobrasil {
+        width: 100px;
+        height: 25px;
+    }
+    
+    img#bancobrasil {
+        margin-left: 30px;
+    }
+    
+    #itau {
+        width: 35px;
+        height: 35px;
+    }
+    
+    #bradesco {
+        width: 120px;
+        height: 25px;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Contato */
+    /* ----------------------------------------------- */
+    #Contato {
+    }
+    
+    form {
+        width: 180px;
+    }
+    
+    #name {
+        width: 180px;
+    }
+    
+     #email {
+        width: 180px;
+    }
+    
+     
+    /* ----------------------------------------------- */
+    /* Roleta */
+    /* ----------------------------------------------- */
+    #roleta {
+        height: 80px;
+    }
+    
+    /* ----------------------------------------------- */
+    /* Footer */
+    /* ----------------------------------------------- */
+    footer {
+    }
+}

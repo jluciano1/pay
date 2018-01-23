@@ -1,0 +1,1480 @@
+.item-menu{
+  text-align: center;
+    display: inline-block;
+	font-size: 110%;
+	color: #0d0d0d !important;	
+	font-weight: bold;
+}
+
+.item-menunoteex{
+  text-align: center;
+    display: inline-block;
+	font-size: 90%;
+	color: #0d0d0d !important;	
+	font-weight: bold;
+}
+
+.center-menu
+{
+  padding-left: 10%;
+}
+
+.arredondado-menu {
+    border-radius: 10px;
+    background: #E9CC2D;
+}
+
+.botao {
+        position: absolute;
+        float: left;
+        width: auto;
+        height: 10%;
+        margin-top: 29%;
+        margin-left: 10%;
+        font-size: 160%;
+        font-family: 'Quicksand', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+
+.botao a:link,
+.botao a:visited{
+    padding: 8px 8px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60%;
+    border: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.botaocel a:link,
+.botaocel a:visited{
+    padding: 8px 8px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60%;
+    border: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+    top:10%;
+}
+
+.botaocel {
+    position: relative;
+    left: 55%;
+    top: 05%;
+    background-color: #ffcb05;
+    border: none;
+    color: #fff !important;
+    border-radius: 10%;
+    font-size: 120%;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    width: 30%;
+}
+
+.titulo-quemsomos{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 4%;
+  position: absolute;
+  top: 15%;
+  left: 41%;
+}
+
+.titulo-quemsomoscel{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 4%;
+  position: absolute;
+  top: -30%;
+  left: 25%;
+}
+
+.imagem-quemsomos{
+  position: absolute;
+  top: 72%;
+  left: 15%;
+}
+
+.linha-quemsomos {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  z-index: -1;
+  width: 30%;
+}
+
+.linha-quemsomoscel {
+  position: absolute;
+  top: -5%;
+  left: 36%;
+  z-index: -1;
+  width: 30%;
+}
+
+.texto-quemsomos {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  width: 60%;
+}
+
+.texto-quemsomoscel {
+  position: absolute;
+  /*top: 30%;*/
+  /*left: 10%;*/
+  width: 100%;
+}
+
+.pquemsomoscel
+{
+  font-size: 100%;
+}
+
+.pcomofuncionacel
+{
+  font-size: 100%;
+}
+.pquemsomos
+{
+  font-size: 100%;
+}
+.largura-geral {
+    width: 100%;
+}
+
+.titulo-comofunciona{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 50px;
+  position: absolute;
+  /*top: 0%;*/
+  left: 45%;
+}
+
+.titulo-comofuncionanoteex{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 50px;
+  position: absolute;
+  top: -4%;
+  left: 45%;
+}
+
+.linha-comofunciona {
+  position: absolute;
+  top: 18%;
+  left: 36%;
+  z-index: -1;
+  width: 32%;
+}
+
+.titulo-comofuncionacel{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 50px;
+  position: absolute;
+  top: -3%;
+  left: 35%;
+}
+
+.linha-comofuncionacel{
+  position: absolute;
+  top: 11%;
+  left: 36%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-comofuncionacel {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+
+.texto-comofunciona {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+.imgk {
+  position: absolute;
+  width: 12%;
+  height: 50%;
+  left:20%;
+  top:-10%;
+}
+
+.imgr {
+  position: absolute;
+  width: 12%;
+  height: 50%;
+  left:45%;
+  top:-10%;
+}
+
+.imgp {
+  position: absolute;
+  width: 12%;
+  height: 50%;
+  left:70%;
+  top:-10%;
+}
+
+.texto-comofunciona1 {
+  left: 16%;
+  margin-top: 10%;
+}
+.texto-comofunciona2 {
+  left: 27%;
+  margin-top: 10%;
+}
+.texto-comofunciona3 {
+  left: 35%;
+  margin-top: 10%;
+}
+
+.back-comecejacel
+{
+  background-image: url(img/comeceja.png);
+  background-repeat: repeat;
+  position: absolute;
+  top: 5%;
+  z-index: -1;
+  width: 100%;
+  height: 34%;
+  background-size: 100%;
+}
+
+.back-comeceja
+{
+  background-image: url(img/comeceja.png);
+  background-repeat: repeat;
+  position: absolute;
+  top: 6%;
+  z-index: -1;
+  width: 100%;
+  height: 75%;
+  background-size: 100%;
+}
+
+.back-quemsomos
+{
+  background-size: 100%;
+  background-image: url(img/mesa.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 75%;
+  top: 80%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-quemsomoscel
+{
+  background-size: 100%;
+  background-image: url(img/mesa.png);
+  background-repeat: no-repeat; /* for vertical repeat */
+  position: absolute;
+  height: 90%;
+  top: 28%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-quemsomoscel2
+{
+  background-size: 100%;
+  background-image: url(img/fundo-verdeclaro.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 60%;
+  top: 24%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-comofunciona
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 72%;
+  top: 147%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-comofuncionacel
+{
+  background-size: 500% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 100%;
+  top: 100%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-duvida
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 51%;
+  top: 219%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-duvidacel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 100%;
+  top: 200%;
+  z-index: -1;
+  width: 100%;
+}
+
+.texto-duvida1 {
+  left: 16%;
+  margin-top: 10%;
+}
+.texto-duvida2 {
+  left: 27%;
+  margin-top: 10%;
+}
+.texto-duvida3 {
+  left: 35%;
+  margin-top: 10%;
+}
+
+
+
+.titulo-duvida{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 20%;*/
+  position: absolute;
+  /*top: -5%;*/
+  left: 48%;
+}
+
+.titulo-duvidacel{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  /*margin-top: 20%;*/
+  position: absolute;
+  /*top: -5%;*/
+  left: 37%;
+}
+
+.linha-duvida {
+  position: absolute;
+  top: 25%;
+  left: 36%;
+  z-index: -1;
+  width: 32%;
+}
+
+.linha-duvidacel {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-duvida {
+  position: absolute;
+  /*top: 15%;*/
+  width: 100%;
+}
+
+.back-rapido
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 100%;
+  top: 270%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-rapidocel
+{
+  background-size: 500% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 80%;
+  top: 300%;
+  z-index: -1;
+  width: 100%;
+}
+
+.titulo-rapido{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 7%;
+  left: 15%;
+}
+
+.linha-rapido {
+  position: absolute;
+  top: 22%;
+  left: 7%;
+  z-index: -1;
+  width: 32%;
+}
+
+.linha-rapidonoteex {
+  position: absolute;
+  top: 19%;
+  left: 7%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-rapido {
+  position: absolute;
+  top: 22%;
+  left: -25%;
+  width: 100%;
+  font-size: 100%;
+}
+
+.texto-rapidonoteex {
+  position: absolute;
+  top: 22%;
+  left: -18%;
+  width: 100%;
+  font-size: 100%;
+}
+
+.titulo-rapidocel{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 7%;
+  left: 18%;
+}
+
+.linha-rapidocel{
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-rapidocel{
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 80%;
+}
+
+.prapidocel
+{
+  font-size: 100%;
+}
+
+.back-bancos
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat;
+  position: absolute;
+  height: 70%;
+  top: 340%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-bancoscel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat;
+  position: absolute;
+  height: 70%;
+  top: 380%;
+  z-index: -1;
+  width: 100%;
+}
+
+.titulo-bancos{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  /*top: 10%;*/
+  left: 43%;
+}
+
+.bancos{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 100%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 15%;
+  left: 38%;
+}
+
+.linha-bancos {
+  position: absolute;
+  top: 18%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-bancos {
+  position: absolute;
+  top: 30%;
+  left: -15%;
+  width: 100%;
+}
+
+.titulo-bancoscel{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  /*top: 10%;*/
+  left: 23%;
+}
+
+.linha-bancoscel {
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-bancoscel {
+  position: absolute;
+  top: 10%;
+  left: -25%;
+  width: 100%;
+}
+
+.banco1 {
+  position: absolute;
+  left:30%;
+  top:30%;
+}
+
+.banco2 {
+  position: absolute;
+  left:48%;
+  top:30%;
+}
+
+.banco3 {
+  position: absolute;
+  left:60%;
+  top:35%;
+}
+
+.banco1cel {
+  position: absolute;
+  left:5%;
+  top:30%;
+  width: 30%;
+}
+
+.banco2cel {
+  position: absolute;
+  left:45%;
+  top:30%;
+  width: 10%;
+}
+
+.banco3cel {
+  position: absolute;
+  left:65%;
+  top:32%;
+  width: 30%;
+}
+
+.back-contato
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 70%;
+  top: 400%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-contatocel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 100%;
+  top: 430%;
+  z-index: -1;
+  width: 100%;
+}
+
+.titulo-contato{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 5%;
+  left: 47%;
+}
+
+.linha-contato {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
+.linha-contatonoteex {
+  position: absolute;
+  top: 17%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-contato {
+  position: absolute;
+  color: #252525 !important;
+  top: 20%;
+  left: 55%;
+  width: 20%;
+}
+
+.msgcel {
+        margin-top: 0px;
+        width: 87%;
+        height: 5%;
+    }
+    
+  .msg {
+        margin-top: 0px;
+        width: 49%;
+        height: 30%;
+    }
+    
+.txtform {
+    color: #000;
+}
+
+.form-contato {
+  position: absolute;
+  top: 18%;
+  left: 25%;
+  width: 50%;
+}
+
+.form-contatonoteex {
+  position: absolute;
+  top: 18%;
+  left: 0%;
+  width: 50%;
+}
+
+.titulo-contatocel{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 0%;
+  /*left: 10%;*/
+}
+
+.linha-contatocel {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+}
+
+.texto-contatocel {
+  position: absolute;
+  color: #252525 !important;
+  top: 67%;
+  left: 15%;
+  width: 80%;
+}
+
+.form-contatocel {
+  position: absolute;
+  top: 10%;
+  left: -30%;
+  width: 50%;
+}
+
+.back-roleta
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 45%;
+  top: 470%;
+  z-index: -1;
+  width: 100%;
+}
+
+.imgroleta {
+    height: 120%;
+    width: 100%;
+    margin-top: -4%;
+    margin-left: 0%;
+}
+
+.back-roletacel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 14%;
+  top: 530%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-footer
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdeclaro.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 5%;
+  top: 513%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-footercel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdeclaro.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 8%;
+  top: 544%;
+  z-index: -1;
+  width: 100%;
+}
+
+.copy {
+    font-size: 80%;
+    text-align: center;
+}
+
+.acopy {
+    font-size: 80%;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.imagem-pardeas{
+  position: absolute;
+  top: 60%;
+}
+
+.imagem-pardeasnoteex{
+  position: absolute;
+  top: 70%;
+  width: 15%;
+}
+
+.fichas{
+  position: absolute;
+  top: 70%;
+  left: 75%;
+}
+
+.fichascel{
+  position: absolute;
+  top: 103%;
+  left: 75%;
+}
+
+.madeira{
+  position: absolute;
+}
+
+.back-login
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-loginbranco
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 50%;
+  z-index: -1;
+  width: 40%;
+  top: 20%;
+  left: 30%;
+}
+
+.back-loginbrancocel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 60%;
+  z-index: -1;
+  width: 85%;
+  top: 12%;
+  left: 8%;
+}
+
+.back-cadastro
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-cadastrobranco
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 53%;
+  z-index: -1;
+  width: 40%;
+  top: 20%;
+  left: 30%;
+}
+
+.back-cadastrocel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 110%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-cadastrobrancocel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 82%;
+  z-index: -1;
+  width: 80%;
+  top: 12%;
+  left: 10%;
+}
+
+.linha-login {
+  position: absolute;
+  top: 28%;
+  left: 32%;
+  z-index: -1;
+  width: 35%;
+}
+
+.linha-loginnoteex {
+  position: absolute;
+  top: 30%;
+  left: 32%;
+  z-index: -1;
+  width: 35%;
+}
+
+
+
+.linha-logincel {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: -1;
+  width: 80%;
+}
+
+.linha-cadastro {
+  position: absolute;
+  top: 27%;
+  left: 35%;
+  z-index: -1;
+  width: 30%;
+}
+
+.linha-cadastronoteex{
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  z-index: -1;
+  width: 30%;
+}
+
+.linha-cadastrocel {
+  position: absolute;
+  top: 19%;
+  left: 20%;
+  z-index: -1;
+  width: 70%;
+}
+
+.form-login {
+  position: absolute;
+  top: 32%;
+  left: 32%;
+  width: 35%;
+}
+
+.form-loginnoteex{
+  position: absolute;
+  top: 32%;
+  left: 10%;
+  width: 35%;
+}
+
+.form-logincel {
+  position: absolute;
+  top: 18%;
+  left: -20%;
+  width: 60%;
+}
+
+.form-cadastro {
+  position: absolute;
+  top: 32%;
+  left: 32%;
+  width: 35%;
+}
+
+.form-cadastronoteex{
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  width: 35%;
+}
+
+.form-cadastrocel {
+  position: absolute;
+  top: 20%;
+  left: -30%;
+  width: 70%;
+}
+
+.texto-login1
+{
+  position: absolute;
+  top: 64%;
+  left: 35%;
+}
+
+.texto-login1cel
+{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+}
+
+.botaologin
+{
+ position: absolute;
+  top: 70%;
+  left: 80%;
+}
+
+.botaologincel
+{
+ position: absolute;
+  margin-top: 5%;
+  left: 60%;
+}
+
+.texto-login2
+{
+ position: absolute;
+  top: 75%;
+  left: 40%;
+  color: #fff !important;
+}
+
+.texto-login2cel
+{
+ position: absolute;
+  top: 75%;
+  left: 10%;
+  color: #fff !important;
+  font-size: 100%;
+}
+
+.logo-login
+{
+  position: absolute;
+  top: 85%;
+  left: 45%;
+  z-index: -1;
+  width: 12%;
+}
+
+.logo-logincel
+{
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  z-index: -1;
+  width: 50%;
+}
+
+.logo-cadastro
+{
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  z-index: -1;
+  width: 12%;
+}
+
+.logo-cadastrocel
+{
+  position: absolute;
+  top: 2%;
+  left: 35%;
+  z-index: -1;
+  width: 35%;
+}
+
+.titulo-login{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 21%;
+  left: 43%;
+}
+
+.titulo-loginnoteex{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 21%;
+  left: 40%;
+}
+
+.titulo-logincel{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 9%;
+  left: 20%;
+}
+
+.botaocadastro
+{
+ position: absolute;
+  top: 100%;
+  left: 0%;
+}
+
+.botaocadastronoteex
+{
+ position: absolute;
+  top: 130%;
+  left: 0%;
+}
+
+.botaocadastrocel
+{
+ position: absolute;
+  top: 97%;
+  left: 0%;
+}
+
+.texto-cadastro
+{
+ position: absolute;
+  top: 85%;
+  left: 37%;
+  color: #fff !important;
+  text-align: center;
+}
+
+.texto-cadastrocel
+{
+ position: absolute;
+  top: 75%;
+  left: 10%;
+  color: #fff !important;
+  text-align: center;
+}
+
+.texto-promocao1
+{
+  position: absolute;
+  color: #252525 !important;
+  top: 45%;
+  left: 40%;
+  width: 30%;
+}
+
+.texto-promocao2
+{
+  position: absolute;
+  color: #252525 !important;
+  top: 45%;
+  left: 65%;
+  width: 30%;
+}
+
+.ppromocao1
+{
+  font-size: 130%;
+}
+
+.ppromocao2
+{
+  font-size: 130%;
+}
+
+.texto-promocao1cel
+{
+  position: absolute;
+  color: #252525 !important;
+  top: 25%;
+  left: 15%;
+  width: 30%;
+}
+
+.texto-promocao2cel
+{
+  position: absolute;
+  color: #252525 !important;
+  top: 25%;
+  left: 55%;
+  width: 30%;
+}
+
+.ppromocao1cel
+{
+  font-size: 130%;
+}
+
+.ppromocao2cel
+{
+  font-size: 130%;
+}
+
+.botaopromocao
+{
+  border: 2px solid #4CAF50;
+  background-color: #2D5333;
+  color: #4CAF50 !important;
+  width: 30%;
+  height: 10%;
+}
+
+.botaopromocaocel
+{
+  border: 2px solid #4CAF50;
+  background-color: #2D5333;
+  color: #4CAF50 !important;
+  width: 80%;
+  height: 10%;
+}
+
+.titulo-cadastro{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 21%;
+  left: 42%;
+}
+
+.titulo-cadastronoteex{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 21%;
+  left: 40%;
+}
+
+.titulo-cadastrocel{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 100%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 11%;
+  left: 20%;
+}
+
+input::placeholder { color: gray; }
+
+.textobotaocadastro
+{
+  font-weight: bold;
+  text-align: center;
+  font-size: 80%;
+}
+
+.textobotaologin
+{
+  font-weight: bold;
+  text-align: center;
+  font-size: 80%;
+}
+
+.form-checkcel{
+  margin-left:-18%;
+  margin-top:55%;
+}
+
+.btncadastro{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 100%;
+    height: 13%;
+    float: left;
+}
+
+.btncadastronoteex{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 100%;
+    height: 17%;
+    float: left;
+}
+
+.btncadastrocel{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 100%;
+    height: 10%;
+    float: left;
+}
+
+.btnlogin{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 20%;
+    height: 20%;
+    float: right;
+}
+
+.btnlogincel{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 45%;
+    height: 20%;
+    float: right;
+}
+
+.pesqueceu
+{
+  font-size: 120%;
+  color: black;
+}
+
+.pesqueceucel
+{
+  font-size: 80%;
+  color: black;
+  margin-top: 13%;
+}
+
+.botaocontato
+{
+ position: absolute;
+  top: 90%;
+  left: 30%;
+}
+
+.btncontato{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 20%;
+    height: 20%;
+    float: right;
+}
+
+.botaocontatocel
+{
+ position: absolute;
+  top: 70%;
+  left: 95%;
+}
+
+.btncontatocel{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 40%;
+    height: 10%;
+    float: right;
+    font-size: 50%;
+}
+
+.iconepay {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    width: 8%
+}
+
+.iconemoney {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    width: 8%
+}
+
+.back-footercadastro
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdeclaro.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 5%;
+  top: 95%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-footercadastrocel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdeclaro.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 5%;
+  top: 105%;
+  z-index: -1;
+  width: 100%; 
+}
+
+@media only screen and (min-width:0px) and (max-width:1200px) {
+    .noteex
+    {
+      display: none;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    .noteex
+    {
+      display: none;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1500px) {
+    .noteexhide
+    {
+      display: none;
+    }
+}

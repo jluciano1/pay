@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>PayJump</title> 
+    <!-- Bootstrap CSS CDN --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <!-- Our Custom CSS --> 
+    <link rel="stylesheet" type="text/css" href="resources/css/solicite.css"> 
+    <!-- Scrollbar Custom CSS --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"> 
+  </head> 
+  <body> 
+    <div class="wrapper"> 
+      <!-- Sidebar Holder --> 
+      <nav id="sidebar"> 
+        <div class="sidebar-header"> 
+        <img src="resources/img/payjump.png" class="" width="" height="60"> 
+        </div> 
+        
+        
+        
+        <ul class="list-unstyled components"> 
+          <p>email@gmail.com</p> 
+          <li><a href="#">MENU</a></li> 
+          <li><a href="dadospessoais.html"><i class="glyphicon glyphicon-user"></i> <span class="">Dados Pessoais</span> </a> </li> 
+          <li> <a href="contas.html"><i class="glyphicon glyphicon-credit-card"></i> <span class="">Contas</span> </a> </li> 
+          <li> <a href="comprar.html"><i class="glyphicon glyphicon-arrow-right"></i> <span class="">Comprar Fichas</span> </a> </li>
+          <li><a href="vender.html"><i class="glyphicon glyphicon-arrow-left"></i> <span class="">Vender Fichas</span> </a> </li> 
+          <li> <a href="afiliados.html"><i class="glyphicon glyphicon-briefcase"></i> <span class="">Afiliados</span> </a> </li> 
+          <li> <a href="historico.html"><i class="glyphicon glyphicon-repeat"></i> <span class="">Histórico</span> </a> </li>
+            <br>
+            <li class="collapsed component-holder item-menu"><span class="">RECENTES</span></li>
+            <br>
+            <br>
+			  <div class="justificado hidden-xs"><span class="texto-menu">Complemente seu cadastro. Mantenha seus dados atualizados para maior agilidade e segurança. <a class="link-menu">Atualizar agora</a></span></div>
+			  <div class="justificadocel hidden-sm hidden-lg hidden-md"><span class="texto-menu">Complemente seu cadastro. Mantenha seus dados atualizados para maior agilidade e segurança. <a class="link-menu">Atualizar agora</a></span></div>
+			  <div class="justificadocel hidden-sm hidden-lg hidden-md"><span class="texto-menu"></span><br><br><br></div>
+		  </ul> 
+      </nav> 
+      <!-- Page Content Holder --> 
+      <div id="content"> 
+        <nav class="navbar navbar-default"> 
+          <div class="container-fluid"> 
+            <div class="navbar-header"> 
+              <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn"> <i class="glyphicon glyphicon-align-left"></i> <span>Menu</span> </button> 
+              <h4>Dados pessoais</h4>
+            </div> 
+          </div> 
+        </nav> 
+        <form action="#" method="POST" class="form-pessoais">
+			<p id="txtform"><input class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Nome" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Email" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="celular" placeholder="Celular" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="indicacao" placeholder="Indicação" onfocus="EmptyField(this.id);"></p>   
+		</form>
+		<form action="#" method="POST" class="form-pessoais">
+			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="cpf" placeholder="CPF" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="celular" placeholder="Data de nascimento" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="indicacao" placeholder="Banco" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="indicacao" placeholder="Agência" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="indicacao" placeholder="Conta" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="indicacao" placeholder="Operação" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p><button type="submit" name="btEnvia" class="btn btn-success btn-lg btn-block botaosalvar btnsalvar hidden-xs"><span class="textobotaocadastro">Salvar</span></button></p>
+			<p><button type="submit" name="btEnvia" class="btn btn-success btn-lg btn-block botaosalvarcel btnsalvarcel hidden-sm hidden-lg hidden-md"><span class="textobotaocadastro">Salvar</span></button></p>
+		</form>
+      </div> 
+    </div> 
+    <!-- jQuery CDN --> 
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> 
+    <!-- Bootstrap Js CDN --> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <!-- jQuery Custom Scroller CDN --> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script> 
+    <script type="text/javascript">
+            $(document).ready(function () {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar, #content').toggleClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+        </script>   
+  </body>
+</html>
