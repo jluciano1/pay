@@ -28,9 +28,9 @@
 		<h4 class="titulo-login">Login no <i>PayJump</i></h4>
 		<img src="img/linha-contato.png" alt="linha Contato" class="linha-login">
 		<form action="#" method="POST" class="form-login">
-			<p id="txtform"><input class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Usuário ou email" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform"><input class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Usuário ou email" onfocus="EmptyField(this.id);" ng-model="username.value" ></p>   
 			<br>
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Senha" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Senha" onfocus="EmptyField(this.id);" ng-model="password.value"></p>   
 			<br>
 			<br>
 			<div class="form-check">
@@ -52,9 +52,9 @@
 		<h4 class="titulo-loginnoteex">Login no <i>PayJump</i></h4>
 		<img src="img/linha-contato.png" alt="linha Contato" class="linha-loginnoteex">
 		<form action="#" method="POST" class="form-loginnoteex">
-			<p id="txtform"><input class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Usuário ou email" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform"><input class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Usuário ou email" onfocus="EmptyField(this.id);" ng-model="username.value"></p>   
 			<br>
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Senha" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Senha" onfocus="EmptyField(this.id);" ng-model="password.value"></p>   
 			<br>
 			<br>
 			<div class="form-check">
@@ -83,9 +83,9 @@
 				<br>
 				<h4 class="titulo-logincel">Login no <i>PayJump</i></h4>
 				<form action="#" method="POST" class="form-logincel">
-					<p id="txtform"><input class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Usuário ou email" onfocus="EmptyField(this.id);"></p>   
+					<p id="txtform"><input class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Usuário ou email" onfocus="EmptyField(this.id);" ng-model="username.value"></p>   
 					<br>
-					<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Senha" onfocus="EmptyField(this.id);"></p>   
+					<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Senha" onfocus="EmptyField(this.id);" ng-model="password.value"></p>   
 					<p><button type="submit" name="btEnvia" class="btn btn-success btn-lg btn-block botaologincel btnlogincel"><span class="textobotaologin">ENVIAR</span></button></p>
 					<div class="form-checkcel">
                         <input type="checkbox" class="form-check-input hidden-xs" id="checksenha">
