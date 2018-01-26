@@ -2,11 +2,9 @@
     angular.module('custom.controllers', []);
     
     app.controller('LoginController', ['$scope', '$http', '$location', '$rootScope', '$window', '$state', '$translate', 'Notification', function ($scope, $http, $location, $rootScope, $window, $state, $translate, Notification) {
-      
-      app.registerEventsCronapi($scope, $translate);
-    
       $scope.message = {};
       $scope.login = function () {
+        console.log("aqui");
         $scope.message.error = undefined;
 
         var user = { username: $scope.username.value, password: $scope.password.value };
@@ -44,8 +42,6 @@
 
     app.controller('HomeController', ['$scope', '$http', '$rootScope', '$state', '$translate', 'Notification', function ($scope, $http, $rootScope, $state, $translate, Notification) {
       
-      app.registerEventsCronapi($scope, $translate);
-        
       $rootScope.http = $http;
       $rootScope.Notification = Notification;
 

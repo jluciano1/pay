@@ -9,8 +9,6 @@ var app = (function() {
       'custom.controllers',
       'custom.services',
       'datasourcejs',
-      'chart.js',
-      'ngMask',
       'ngJustGage',
       'pascalprecht.translate',
       'tmh.dynamicLocale',
@@ -63,15 +61,22 @@ var app = (function() {
       // Set up the states
       $stateProvider
 
-        .state('login', {
-          url: "",
-          controller: 'LoginController',
-          templateUrl: 'views/login.html'
-        })
-
         .state('main', {
           url: "/",
-          templateUrl: 'views/index.html'
+          controller: 'IndexController',
+          templateUrl: 'views/indexpay.view.html'
+        })
+        
+        .state('index', {
+          url: "",
+          controller: 'IndexController',
+          templateUrl: 'views/indexpay.view.html'
+        })
+        
+        .state('login', {
+          url: "/login",
+          controller: 'LoginController',
+          templateUrl: 'views/login.view.html'
         })
 
         .state('home', {
@@ -86,7 +91,7 @@ var app = (function() {
           templateUrl: function(urlattr) {
             return 'views/' + urlattr.name + '.view.html';
           }
-        })
+      })
 
         .state('404', {
           url: "/error/404",
@@ -157,8 +162,6 @@ var app = (function() {
     // General controller
     .controller('PageController', ["$scope", "$stateParams", "$location", "$http", "$rootScope", "$translate", function($scope, $stateParams, $location, $http, $rootScope, $translate) {
 
-      app.registerEventsCronapi($scope, $translate);
-
       // save state params into scope
       $scope.params = $stateParams;
       $scope.$http = $http;
@@ -204,36 +207,6 @@ app.userEvents = {};
 //Configuration
 app.config = {};
 app.config.datasourceApiVersion = 2;
-
-app.registerEventsCronapi = function($scope, $translate){
-  for(var x in app.userEvents)
-    $scope[x]= app.userEvents[x].bind($scope);
-
-  $scope.vars = {};
-
-  try {
-    if (cronapi) {
-      $scope['cronapi'] = cronapi;
-      $scope['cronapi'].$scope =  $scope;
-      $scope.safeApply = safeApply;
-      if ($translate) {
-        $scope['cronapi'].$translate =  $translate;
-     }
-    }
-  }
-  catch (e)  {
-    console.info('Not loaded cronapi functions');
-    console.info(e);
-  }
-  try {
-    if (blockly)
-      $scope['blockly'] = blockly;
-  }
-  catch (e)  {
-    console.info('Not loaded blockly functions');
-    console.info(e);
-  }
-};
 
 window.safeApply = function(fn) {
   var phase = this.$root.$$phase;
