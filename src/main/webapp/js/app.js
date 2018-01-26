@@ -78,6 +78,12 @@ var app = (function() {
           controller: 'LoginController',
           templateUrl: 'views/login.view.html'
         })
+        
+        .state('cadastro', {
+          url: "/cadastro",
+          controller: 'CadastroController',
+          templateUrl: 'views/cadastro.view.html'
+        })
 
         .state('home', {
           url: "/home",

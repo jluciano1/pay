@@ -29,6 +29,8 @@ public class SecurityPermission {
     http.authorizeRequests().antMatchers("/login.html").permitAll();
     http.authorizeRequests().antMatchers("/plugins/**").permitAll();
     http.authorizeRequests().antMatchers("/public/**").permitAll();
+    http.authorizeRequests().antMatchers("/resources/**").permitAll();
+    http.authorizeRequests().antMatchers("/solicite.html").permitAll();
     http.authorizeRequests().antMatchers("/views/cadastro.view.html").permitAll();
     http.authorizeRequests().antMatchers("/views/error/**").permitAll();
     http.authorizeRequests().antMatchers("/views/indexpay.view.html").permitAll();

@@ -4,7 +4,6 @@
     app.controller('LoginController', ['$scope', '$http', '$location', '$rootScope', '$window', '$state', '$translate', 'Notification', function ($scope, $http, $location, $rootScope, $window, $state, $translate, Notification) {
       $scope.message = {};
       $scope.login = function () {
-        console.log("aqui");
         $scope.message.error = undefined;
 
         var user = { username: $scope.username.value, password: $scope.password.value };
