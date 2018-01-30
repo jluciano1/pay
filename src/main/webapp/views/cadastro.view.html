@@ -8,17 +8,17 @@
 		<br>
 		<h4 class="titulo-cadastro">Crie a sua conta no <i>PayJump</i></h4>
 		<img src="img/linha-contato.png" alt="linha Contato" class="linha-cadastro">
-		<form action="#" method="POST" class="form-cadastro">
-			<p id="txtform"><input class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Nome" onfocus="EmptyField(this.id);"></p>   
-			<br>
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Email" onfocus="EmptyField(this.id);"></p>   
-			<br>
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="cpf" placeholder="CPF" onfocus="EmptyField(this.id);"></p>   
-			<br>
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="celular" placeholder="Celular" onfocus="EmptyField(this.id);"></p>   
-			<br>
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="indicacao" placeholder="Indicação" onfocus="EmptyField(this.id);"></p>   
-			<br>
+		<form ng-submit="cadastrar()" class="form-cadastro">
+			<p id="txtform">
+			    <input ng-model="user.name" class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Nome" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform">
+			    <input ng-model="user.email" class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Email" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform">
+			    <input ng-model="user.cpf" class="form-control" type="text" size="40" name="replyto" id="cpf" placeholder="CPF" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform">
+			    <input ng-model="user.cel" class="form-control" type="text" size="40" name="replyto" id="celular" placeholder="Celular" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform">
+			    <input ng-model="user.indicacao" class="form-control" type="text" size="40" name="replyto" id="indicacao" placeholder="Indicação" onfocus="EmptyField(this.id);"></p>   
 			<p><button type="submit" name="btEnvia" class="btn btn-success btn-lg btn-block botaocadastro btncadastro"><span class="textobotaocadastro">CADASTRAR</span></button></p>
 		</form>
 	</div>
@@ -27,12 +27,22 @@
 		<br>
 		<h4 class="titulo-cadastronoteex">Crie a sua conta no <i>PayJump</i></h4>
 		<img src="img/linha-contato.png" alt="linha Contato" class="linha-cadastronoteex">
-		<form action="#" method="POST" class="form-cadastronoteex">
-			<p id="txtform"><input class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Nome" onfocus="EmptyField(this.id);"></p>   
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Email" onfocus="EmptyField(this.id);"></p>   
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="cpf" placeholder="CPF" onfocus="EmptyField(this.id);"></p>   
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="celular" placeholder="Celular" onfocus="EmptyField(this.id);"></p>   
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="indicacao" placeholder="Indicação" onfocus="EmptyField(this.id);"></p>   
+		<form ng-submit="cadastrar()" class="form-cadastronoteex">
+			<p id="txtform">
+			    <input ng-model="user.name" class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Nome" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform">
+			    <input ng-model="user.email" class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Email" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform">
+			    <input ng-model="user.cpf" class="form-control" type="text" size="40" name="replyto" id="cpf" placeholder="CPF" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform">
+			    <input ng-model="user.cel" class="form-control" type="text" size="40" name="replyto" id="celular" placeholder="Celular" onfocus="EmptyField(this.id);"></p>   
+			<br>
+			<p id="txtform">
+			    <input ng-model="user.indicacao" class="form-control" type="text" size="40" name="replyto" id="indicacao" placeholder="Indicação" onfocus="EmptyField(this.id);"></p>   
+			<br>
 			<p><button type="submit" name="btEnvia" class="btn btn-success btn-lg btn-block botaocadastronoteex btncadastronoteex"><span class="textobotaocadastro">CADASTRAR</span></button></p>
 		</form>
 	</div>
@@ -47,16 +57,21 @@
 	<div id="h-contato" class="hidden-sm hidden-lg hidden-md">
 		<br>
 		<h4 class="titulo-cadastrocel">Crie a sua conta no <i>PayJump</i></h4>
-		<form action="#" method="POST" class="form-cadastrocel">
-			<p id="txtform"><input class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Nome" onfocus="EmptyField(this.id);"></p>   
+		<form ng-submit="cadastrar()" class="form-cadastrocel">
+			<p id="txtform">
+			    <input ng-model="user.name" class="form-control" type="text" size="40" name="nome" id="nome" placeholder="Nome" onfocus="EmptyField(this.id);"></p>   
 			<br>
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Email" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform">
+			    <input ng-model="user.email" class="form-control" type="text" size="40" name="replyto" id="e-mail" placeholder="Email" onfocus="EmptyField(this.id);"></p>   
 			<br>
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="cpf" placeholder="CPF" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform">
+			    <input ng-model="user.cpf" class="form-control" type="text" size="40" name="replyto" id="cpf" placeholder="CPF" onfocus="EmptyField(this.id);"></p>   
 			<br>
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="celular" placeholder="Celular" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform">
+			    <input ng-model="user.cel" class="form-control" type="text" size="40" name="replyto" id="celular" placeholder="Celular" onfocus="EmptyField(this.id);"></p>   
 			<br>
-			<p id="txtform"><input class="form-control" type="text" size="40" name="replyto" id="indicacao" placeholder="Indicação" onfocus="EmptyField(this.id);"></p>   
+			<p id="txtform">
+			    <input ng-model="user.indicacao" class="form-control" type="text" size="40" name="replyto" id="indicacao" placeholder="Indicação" onfocus="EmptyField(this.id);"></p>   
 			<br>
 			<p><button type="submit" name="btEnvia" class="btn btn-success btn-lg btn-block botaocadastrocel btncadastrocel"><span class="textobotaocadastro">CADASTRAR</span></button></p>
 		</form>
