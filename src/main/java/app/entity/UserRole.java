@@ -4,7 +4,6 @@ import java.io.*;
 import javax.persistence.*;
 import java.util.*;
 import javax.xml.bind.annotation.*;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
  * Classe que representa a tabela USERROLE
@@ -25,20 +24,21 @@ public class UserRole implements Serializable {
    * @generated
    */
   @Id
+  @Column(name = "id", nullable = false, insertable=true, updatable=true)
   private java.lang.String id = UUID.randomUUID().toString().toUpperCase();
   
   /**
   * @generated
   */
   @ManyToOne
-  @JoinColumn(name="fk_user", referencedColumnName = "id", insertable=true, updatable=true)
+  @JoinColumn(name="fk_user", nullable = true, referencedColumnName = "id", insertable=true, updatable=true)
   private User user;
   
   /**
   * @generated
   */
   @ManyToOne
-  @JoinColumn(name="fk_role", referencedColumnName = "id", insertable=true, updatable=true)
+  @JoinColumn(name="fk_role", nullable = true, referencedColumnName = "id", insertable=true, updatable=true)
   private Role role;
   
   /**
@@ -48,9 +48,9 @@ public class UserRole implements Serializable {
   public UserRole(){
   }
 
+  
   /**
    * Obtém id
-   * 
    * return id
    * @generated
    */
@@ -67,9 +67,9 @@ public class UserRole implements Serializable {
     this.id = id;
     return this;
   }
+  
   /**
    * Obtém user
-   * 
    * return user
    * @generated
    */
@@ -86,9 +86,9 @@ public class UserRole implements Serializable {
     this.user = user;
     return this;
   }
+  
   /**
    * Obtém role
-   * 
    * return role
    * @generated
    */

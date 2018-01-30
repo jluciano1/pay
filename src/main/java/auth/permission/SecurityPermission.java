@@ -35,6 +35,7 @@ public class SecurityPermission {
     http.authorizeRequests().antMatchers("/views/error/**").permitAll();
     http.authorizeRequests().antMatchers("/views/indexpay.view.html").permitAll();
     http.authorizeRequests().antMatchers("/views/login.view.html").permitAll();
+    http.authorizeRequests().antMatchers("POST", "/api/security/User/cadastrar").permitAll();
     
 	// role hasAuthority permission
     http.authorizeRequests().antMatchers("/api/security/**").hasAuthority(ROLE_ADMIN_NAME);

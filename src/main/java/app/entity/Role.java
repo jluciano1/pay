@@ -4,7 +4,6 @@ import java.io.*;
 import javax.persistence.*;
 import java.util.*;
 import javax.xml.bind.annotation.*;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
  * Classe que representa a tabela ROLE
@@ -22,16 +21,17 @@ public class Role implements Serializable {
   private static final long serialVersionUID = 1L;
   
   /**
+   * @generated
+   */
+  @Id
+  @Column(name = "id", nullable = false, insertable=true, updatable=true)
+  private java.lang.String id = UUID.randomUUID().toString().toUpperCase();
+  
+  /**
   * @generated
   */
   @Column(name = "name", nullable = true, unique = false, insertable=true, updatable=true)
   private java.lang.String name;
-  
-  /**
-   * @generated
-   */
-  @Id
-  private java.lang.String id = UUID.randomUUID().toString().toUpperCase();
   
   /**
    * Construtor
@@ -40,9 +40,9 @@ public class Role implements Serializable {
   public Role(){
   }
 
+  
   /**
    * Obtém name
-   * 
    * return name
    * @generated
    */
@@ -59,9 +59,9 @@ public class Role implements Serializable {
     this.name = name;
     return this;
   }
+  
   /**
    * Obtém id
-   * 
    * return id
    * @generated
    */

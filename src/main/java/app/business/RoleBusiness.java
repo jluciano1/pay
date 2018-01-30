@@ -1,7 +1,5 @@
 package app.business;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.domain.Page;
@@ -19,7 +17,6 @@ import app.entity.*;
 @Service("RoleBusiness")
 public class RoleBusiness {
 
-  private static final Logger log = LoggerFactory.getLogger(RoleBusiness.class);
 
 
   /**
@@ -41,8 +38,7 @@ public class RoleBusiness {
   public Role post(final Role entity) throws Exception {
     // begin-user-code  
     // end-user-code  
-    Role result = null;
-    result = repository.save(entity);
+    Role result = repository.save(entity);
     // begin-user-code
     // end-user-code
     return result;
@@ -56,8 +52,7 @@ public class RoleBusiness {
   public Role put(final Role entity) throws Exception {
     // begin-user-code  
     // end-user-code
-    Role result = null;
-    result = repository.saveAndFlush(entity);
+    Role result = repository.saveAndFlush(entity);
     // begin-user-code
     // end-user-code
     return result;
@@ -69,9 +64,9 @@ public class RoleBusiness {
    * @generated
    */
   public void delete(java.lang.String id) throws Exception {
+    Role entity = this.get(id);
     // begin-user-code  
     // end-user-code
-    Role entity = this.get(id);
     this.repository.delete(entity);
     // begin-user-code  
     // end-user-code        

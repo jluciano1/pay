@@ -28,19 +28,21 @@ public class RoleREST {
   @Autowired
   @Qualifier("RoleBusiness")
   private RoleBusiness roleBusiness;
-  
+
   /**
    * @generated
    */
   @Autowired
   @Qualifier("UserBusiness")
   private UserBusiness userBusiness;
+
   /**
    * @generated
    */
   @Autowired
   @Qualifier("UserRoleBusiness")
   private UserRoleBusiness userRoleBusiness;
+
   /**
    * Serviço exposto para novo registro de acordo com a entidade fornecida
    * 
@@ -85,12 +87,10 @@ public class RoleREST {
    * NamedQuery list
    * @generated
    */
-  @RequestMapping(method = RequestMethod.GET
-  )    
-  public HttpEntity<PagedResources<Role>> listParams (Pageable pageable, PagedResourcesAssembler assembler){
+  @RequestMapping(method = RequestMethod.GET)
+  public HttpEntity<PagedResources<Role>> listParams(Pageable pageable, PagedResourcesAssembler assembler){
     return new ResponseEntity<>(assembler.toResource(roleBusiness.list(pageable)), HttpStatus.OK);    
   }
-
 
   /**
    * OneToMany Relationship GET
@@ -128,8 +128,7 @@ public class RoleREST {
     Role role = this.roleBusiness.get(roleId);
     entity.setRole(role);
     return this.userRoleBusiness.post(entity);
-  }   
-
+  }
 
   /**
    * ManyToMany Relationship GET
@@ -162,11 +161,10 @@ public class RoleREST {
    * ManyToMany Relationship DELETE
    * @generated
    */  
-  @RequestMapping(method = RequestMethod.DELETE,value="/{roleId}/User/{userId}")
-  public void deleteUser(@PathVariable("roleId") java.lang.String roleId, @PathVariable("userId") java.lang.String userId) {
-    this.roleBusiness.deleteUser(roleId, userId);
+  @RequestMapping(method = RequestMethod.DELETE,value="/{roleId}/User/{UserId}")
+  public void deleteUser(@PathVariable("roleId") java.lang.String roleId, @PathVariable("UserId") java.lang.String UserId) {
+    this.roleBusiness.deleteUser(roleId, UserId);
   }  
-
 
   /**
    * Serviço exposto para recuperar a entidade de acordo com o id fornecido
@@ -177,5 +175,4 @@ public class RoleREST {
   public Role get(@PathVariable("roleId") java.lang.String roleId) throws Exception {
     return roleBusiness.get(roleId);
   }
-
 }

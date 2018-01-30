@@ -4,7 +4,6 @@ import java.io.*;
 import javax.persistence.*;
 import java.util.*;
 import javax.xml.bind.annotation.*;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
  * Classe que representa a tabela USER
@@ -23,6 +22,13 @@ public class User implements Serializable {
   private static final long serialVersionUID = 1L;
   
   /**
+   * @generated
+   */
+  @Id
+  @Column(name = "id", nullable = false, insertable=true, updatable=true)
+  private java.lang.String id = UUID.randomUUID().toString().toUpperCase();
+  
+  /**
   * @generated
   */
   @Column(name = "email", nullable = true, unique = false, insertable=true, updatable=true)
@@ -33,12 +39,6 @@ public class User implements Serializable {
   */
   @Column(name = "name", nullable = false, unique = false, insertable=true, updatable=true)
   private java.lang.String name;
-  
-  /**
-   * @generated
-   */
-  @Id
-  private java.lang.String id = UUID.randomUUID().toString().toUpperCase();
   
   /**
   * @generated
@@ -64,16 +64,34 @@ public class User implements Serializable {
   @Column(name = "theme", nullable = true, unique = false, insertable=true, updatable=true)
   private java.lang.String theme;
   
-    /**
+  /**
+  * @generated
+  */
+  @Column(name = "cpf", nullable = true, unique = false, insertable=true, updatable=true)
+  private java.lang.String cpf;
+  
+  /**
+  * @generated
+  */
+  @Column(name = "celular", nullable = true, unique = false, insertable=true, updatable=true)
+  private java.lang.String celular;
+  
+  /**
+  * @generated
+  */
+  @Column(name = "indicacao", nullable = true, unique = false, insertable=true, updatable=true)
+  private java.lang.String indicacao;
+  
+  /**
    * Construtor
    * @generated
    */
   public User(){
   }
 
+  
   /**
    * Obtém email
-   * 
    * return email
    * @generated
    */
@@ -90,9 +108,9 @@ public class User implements Serializable {
     this.email = email;
     return this;
   }
+  
   /**
    * Obtém name
-   * 
    * return name
    * @generated
    */
@@ -109,9 +127,9 @@ public class User implements Serializable {
     this.name = name;
     return this;
   }
+  
   /**
    * Obtém id
-   * 
    * return id
    * @generated
    */
@@ -128,9 +146,9 @@ public class User implements Serializable {
     this.id = id;
     return this;
   }
+  
   /**
    * Obtém login
-   * 
    * return login
    * @generated
    */
@@ -147,9 +165,9 @@ public class User implements Serializable {
     this.login = login;
     return this;
   }
+  
   /**
    * Obtém picture
-   * 
    * return picture
    * @generated
    */
@@ -166,9 +184,9 @@ public class User implements Serializable {
     this.picture = picture;
     return this;
   }
+  
   /**
    * Obtém password
-   * 
    * return password
    * @generated
    */
@@ -185,9 +203,9 @@ public class User implements Serializable {
     this.password = password;
     return this;
   }
+  
   /**
    * Obtém theme
-   * 
    * return theme
    * @generated
    */
@@ -202,6 +220,63 @@ public class User implements Serializable {
    */
   public User setTheme(java.lang.String theme){
     this.theme = theme;
+    return this;
+  }
+  
+  /**
+   * Obtém cpf
+   * return cpf
+   * @generated
+   */
+  public java.lang.String getCpf(){
+    return this.cpf;
+  }
+  
+  /**
+   * Define cpf
+   * @param cpf cpf
+   * @generated
+   */
+  public User setCpf(java.lang.String cpf){
+    this.cpf = cpf;
+    return this;
+  }
+  
+  /**
+   * Obtém celular
+   * return celular
+   * @generated
+   */
+  public java.lang.String getCelular(){
+    return this.celular;
+  }
+  
+  /**
+   * Define celular
+   * @param celular celular
+   * @generated
+   */
+  public User setCelular(java.lang.String celular){
+    this.celular = celular;
+    return this;
+  }
+  
+  /**
+   * Obtém indicacao
+   * return indicacao
+   * @generated
+   */
+  public java.lang.String getIndicacao(){
+    return this.indicacao;
+  }
+  
+  /**
+   * Define indicacao
+   * @param indicacao indicacao
+   * @generated
+   */
+  public User setIndicacao(java.lang.String indicacao){
+    this.indicacao = indicacao;
     return this;
   }
   

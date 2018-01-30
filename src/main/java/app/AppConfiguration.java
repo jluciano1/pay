@@ -11,6 +11,7 @@ import java.net.URL;
 import java.io.File;
 import java.util.Scanner;
 import java.util.regex.Pattern;
+
 /**
  * Classe que configura os beans para persistencia
  * @generated
